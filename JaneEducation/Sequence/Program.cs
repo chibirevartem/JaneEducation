@@ -10,6 +10,10 @@ namespace Sequence
     {
         static void Main(string[] args)
         {
+            int n = 7;
+            for (int i = 1; i <= n; i++)
+                Console.WriteLine(i);
+            Console.ReadKey();
         }
     }
 }
